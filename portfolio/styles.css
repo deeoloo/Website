@@ -1,6 +1,6 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: fantasy;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -16,34 +16,37 @@ body {
 }
 
 header {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: right;
+    top: 0;
+    gap: 20px;
     background-color: #d4a373;
-    color: orangered;
-    text-align: center;
-    padding: 20px 0;
-    height:50px;
-    align-items: center;
-}
-header .flex-container{
-    position:fixed;
-    top: 5;
+    color: rgb(88, 29, 7);
+    text-align: right;
+    padding: 10px 0;
+    height:40px;
 }
 
 .logo {
+    display: flex;
+    flex-wrap: wrap;
     text-align: left;
     margin: 0;
     font-size: 35px;
     color:brown;
+    
 }
 
- header ul{
+ .menu ul{
     display: flex;
-    align-items: right;
+    text-wrap: wrap;
     list-style: none;
-    text-decoration: none;
     font-size: 32px;
-    margin:0 15px;
-    padding-left: 10px;
+    margin:0;
+    padding: 0;
     gap: 50px;
+    text-align: right;
 
 }
 
@@ -93,14 +96,8 @@ footer {
 
 footer p {
     margin: 0;
-    font-size: 16px;
+    font-size: 10px;
 }
-
-footer ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
 button{
     background-color: rgb(156, 119, 17);
     border: none;
@@ -117,15 +114,6 @@ section {
 section.active {
     display: block;
 }
-.flex-container{
-    display:flex;
-    flex-wrap:wrap;
-    align-items: center;
-    flex-direction: column;
-    position:fixed;
-    top: 15px;
-    margin-left: 250px;
-}
 .social-links{
     font-size: 75px;
 }
@@ -136,7 +124,7 @@ section.active {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: grey;
+    background-color: rgb(77, 11, 11);
     color: #f9f6f2;
     text-decoration:none;
     border-radius: 5px;
