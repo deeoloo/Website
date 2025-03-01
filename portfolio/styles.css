@@ -20,6 +20,12 @@ header {
     color: orangered;
     text-align: center;
     padding: 20px 0;
+    height:50px;
+    align-items: center;
+}
+header .flex-container{
+    position:fixed;
+    top: 5;
 }
 
 .logo {
@@ -49,7 +55,8 @@ header {
 
 
 button:hover {
-    color: orangered
+    color: #fff;
+    background-color: rgb(97, 52, 20);
 }
 
 .home-content {
@@ -95,7 +102,10 @@ footer ul li {
 }
 
 button{
-    background-color: chocolate;
+    background-color: rgb(156, 119, 17);
+    border: none;
+    border-radius: 5px;
+    font-family: fantasy;
 }
 
 
@@ -112,6 +122,9 @@ section.active {
     flex-wrap:wrap;
     align-items: center;
     flex-direction: column;
+    position:fixed;
+    top: 15px;
+    margin-left: 250px;
 }
 .social-links{
     font-size: 75px;
