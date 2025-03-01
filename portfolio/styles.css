@@ -80,7 +80,7 @@ footer {
     background-color: #d4a373;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 5px 0;
     margin-top: 40px;
 }
 
@@ -113,6 +113,12 @@ section.active {
     align-items: center;
     flex-direction: column;
 }
+.social-links{
+    font-size: 75px;
+}
+.bi-envelope{ color:#ea4335;}
+.fa-linkedin-in { color: #0077b5; }
+.bi-github { color: #000; }
 
 .cta-button {
     display: inline-block;
